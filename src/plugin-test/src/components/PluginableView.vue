@@ -9,6 +9,8 @@ const viewModel = ref(model);
 
 <template>
     <div class="flex-container text-3xl">
+      <label>{{ viewModel.BaseText }}</label>
+      <br/>
       <label>{{ viewModel.Text }}</label>
     </div>
 </template>

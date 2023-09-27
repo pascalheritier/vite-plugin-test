@@ -1,5 +1,6 @@
 import type { App } from "vue";
 import { PluginableView } from "./components";
+import { PluginableModel } from "./model/PluginableModel";
 
 export default {
   install: (app: App) => {
@@ -8,3 +9,4 @@ export default {
 };
 
 export { PluginableView };
+export { PluginableModel };
