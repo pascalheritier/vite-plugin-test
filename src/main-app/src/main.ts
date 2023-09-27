@@ -3,7 +3,7 @@ import './style.css'
 import App from './App.vue'
 // import "plugintest/styles.css" // in case you have some style defined in the plugin
 
-import PluginProvider from "plugintest"
+import PluginProvider from "plugin-test"
 
 
 const app = createApp(App);
